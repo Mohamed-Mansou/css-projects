@@ -1,0 +1,217 @@
+                 table {
+                     width: 100%;
+                     border-spacing: 10px;
+                 }
+                 
+                 td {
+                     padding: 10px;
+                     background-color: #eee;
+                     border: 1px solid rgb(196, 190, 190);
+                 }
+                 
+                 table thead td {
+                     text-align: center;
+                     font-weight: bold;
+                     background-color: rgb(116, 79, 79);
+                     color: #eee;
+                 }
+                 
+                 a {
+                     color: green;
+                     text-decoration: none;
+                 }
+                 
+                 a:hover {
+                     color: rgb(70, 23, 23);
+                 }
+                 
+                 .ch:checked {
+                     display: none;
+                 }
+                 
+                 a:visited {
+                     color: rgb(34, 34, 56);
+                 }
+                 
+                 .in {
+                     border: 2px solid red;
+                 }
+                 
+                 .in:focus {
+                     border-color: blueviolet;
+                     outline: none;
+                 }
+                 
+                 .three::first-letter {
+                     font-size: 25px;
+                     color: white;
+                     background-color: red;
+                     font-weight: bold;
+                 }
+                 
+                 .four::first-line {
+                     font-size: 25px;
+                     font-family: Arial, Helvetica, sans-serif;
+                     background-color: blueviolet;
+                     color: antiquewhite;
+                 }
+                 
+                  ::selection {
+                     color: rgb(49, 26, 26);
+                 }
+                 
+                 .parent {
+                     margin-bottom: 30px;
+                     overflow: hidden;
+                 }
+                 
+                 .user {
+                     float: left;
+                     font-size: 25px;
+                     text-align: center;
+                     width: 60px;
+                     height: 60px;
+                     margin-right: 20px;
+                     background-color: #eee;
+                     padding: 10px;
+                 }
+                 
+                 .five {
+                     float: left;
+                     background-color: #eee;
+                     width: 600px;
+                     padding: 10px;
+                     position: relative;
+                 }
+                 
+                 .five::after {
+                     content: "";
+                     position: absolute;
+                     background-color: rgb(22, 70, 70);
+                     height: 100%;
+                     width: 8px;
+                     top: 0;
+                     right: -14px;
+                 }
+                 
+                 .five::before {
+                     content: "";
+                     position: absolute;
+                     width: 0px;
+                     top: 50%;
+                     height: 0px;
+                     left: -20px;
+                     margin-top: -10px;
+                     border-width: 10px;
+                     border-style: solid;
+                     border-color: transparent rgb(22, 70, 70) transparent transparent;
+                 }
+                 
+                 .mohamed {
+                     background-color: #eee;
+                     width: 345px;
+                     height: 345px;
+                     margin: auto;
+                     box-shadow: 2px 2px 19px 2px black inset
+                 }
+                 
+                 .mansour {
+                     width: 50%;
+                     margin-right: 25%;
+                     margin-left: 25%;
+                     padding-top: 100px;
+                 }
+                 /* .one {
+                     background-color: rgb(3, 36, 36);
+                     width: 20%;
+                     height: 5%;
+                     position: absolute;
+                 }
+                 
+                 .two {
+                     background-color: brown;
+                     width: 20%;
+                     height: 5%;
+                 }
+                 
+                 .parent {
+                     background-color: aqua;
+                     width: 500px;
+                     height: 300px;
+                     position: relative;
+                 } */
+                 /* .product {
+                         text-align: center;
+                         padding: 10px;
+                     }
+                     
+                     .product div {
+                         padding-top: 10px;
+                         padding-bottom: 10px;
+                         background-color: rgb(47, 96, 139);
+                         width: 22.5%;
+                         float: left;
+                         margin-left: 2%;
+                         opacity: 0.8;
+                         margin-top: 3%;
+                     } */
+                 /* div {
+                         text-align: center;
+                         text-decoration: none;
+                         text-transform: uppercase;
+                         font-weight: bold;
+                         letter-spacing: 1px;
+                         word-spacing: 1px;
+                         line-height: 1.6;
+                         border: 2px solid rgb(56, 7, 7)
+                     } */
+                 /* .one { */
+                 /* color: rgb(241, 19, 19); */
+                 /* font-size: 30;
+                /* background-image: url(../download.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover; */
+                 /* padding: 40 40 40 40;
+                    margin: auto;
+                    border: 25px solid rgb(179, 59, 59);
+                    outline: 20px yellow solid;
+                    border-radius: 30px; */
+                 /* border-bottom: red 10px solid;
+                     margin: 30px;
+                     padding: 30px;
+                     background-color: #EEE;
+                     text-shadow: 0 0 0 black;
+                     border-radius: 6px;
+                 /* } */
+                 /* .two {
+                         color: rgb(156, 156, 51);
+                         border-radius: 6px;
+                         border-bottom: rgb(114, 114, 40) 10px solid;
+                     }
+                     
+                     .three {
+                         color: green;
+                         border-radius: 6px;
+                         border-bottom: green 10px solid;
+                     }
+                     
+                     .four {
+                         color: blue;
+                         border-radius: 6px;
+                         border-bottom: blue 10px solid;
+                     }
+                     
+                     .one,
+                     .two,
+                     .three,
+                     .four {
+                         margin: 30px;
+                         padding: 30px;
+                         background-color: #EEE
+                     }
+                     
+                     div.special {
+                         text-shadow: 1px 1px 1px red;
+                         color: aqua;
+                     } */
